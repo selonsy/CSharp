@@ -35,7 +35,7 @@ namespace CommonTest
                     }
                     if (pic.IsNotNullOrEmpty() && _id.IsNotNullOrEmpty())
                     {
-                        download_pic(pic, _id);
+                        //download_pic(pic, _id);
                     }
                 }
                 catch (Exception)

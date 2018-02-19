@@ -23,7 +23,7 @@ namespace MyCsharpGo
         {
             Thread thread = new Thread(new ThreadStart(PrintHaHa));
             thread.Start();
-            if (thread.IsAlive)
+            if (thread.IsAlive) 
             {
                 Console.WriteLine("还活着，但马上要死了！");
                 

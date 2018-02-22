@@ -192,3 +192,4 @@ namespace MyCsharpGo
     //DoNotLockMe()仍然可以由主线程访问；LockMe()依然不能访问，原因是其中锁定的locker还没有被t1释放。
 
 }
+
